@@ -1,4 +1,5 @@
 import { Button, Col, Container, Row } from "reactstrap";
+import Instructions from "./Instructions";
 
 const Menu = () => {
     return (
@@ -57,18 +58,7 @@ const Menu = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <Button
-                            color="secondary"
-                            size="lg"
-                            style={{
-                                width: "100%",
-                                borderRadius: "10px",
-                                padding: "10px 20px",
-                                fontSize: "1.2rem",
-                            }}
-                        >
-                            INSTRUCTIONS
-                        </Button>
+                        <Instructions/>
                     </Col>
                 </Row>
             </Container>
