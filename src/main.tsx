@@ -1,11 +1,11 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Menu from './components/Menu';
-import './styles.css';
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "bootstrap/dist/css/bootstrap.min.css";
+import WordleApp from "./components/WordleApp"; // Vaihdettu Menu -> WordleApp
+import "./styles.css";
 
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Menu/>
-  </StrictMode>,
-)
+    <WordleApp />
+  </StrictMode>
+);
