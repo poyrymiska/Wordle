@@ -12,7 +12,7 @@ const Instructions = () => {
             <Button onClick={toggleInstructions} color="secondary" size="lg" style={{ width: "100%", borderRadius: "10px", padding: "10px 20px", fontSize: "1.2rem" }}>
                 INSTRUCTIONS
             </Button>
-            <Modal isOpen={instructions} toggle={toggleInstructions} size="">
+            <Modal isOpen={instructions} toggle={toggleInstructions} centered>
                 <ModalHeader toggle={toggleInstructions}>How to play</ModalHeader>
                 <ModalBody>
                     <Col className="text-center">
